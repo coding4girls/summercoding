@@ -2,13 +2,12 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Privacy Policy &mdash; Summer Coding for Girls</title>
+    <title>Contact Us &mdash; Summer Coding for Girls</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     
-
 <div id="sidebar">
     <ul>
         <li><a href="index.html" class="">Home</a></li>
@@ -17,32 +16,35 @@
         <li><a href="schedule.html" class="">Schedule</a></li>
         <li><a href="logistics.html" class="">Logistics</a></li>
         <li><a href="liability.html" class="">Liability</a></li>
-        <li><a href="privacy.html" class="active">Privacy</a></li>
+        <li><a href="privacy.html" class="">Privacy</a></li>
         <li><a href="terms.html" class="">Terms</a></li>
         <li><a href="cookies.html" class="">Cookies</a></li>
         <li><a href="survey.html" class="">Survey</a></li>
-        <li><a href="contact.html" class="">Contact Us</a></li>
+        <li><a href="contact.html" class="active">Contact Us</a></li>
     </ul>
 </div>
 
-
     <div id="content">
-        
-<h1>Privacy Policy</h1>
-<p>This Privacy Policy describes how Summer Coding for Girls ("we", "us", "our") collects, uses, and shares personal information when you use our website and programs.</p>
-<h2>Information We Collect</h2>
-<ul>
-<li><strong>Personal Data:</strong> name, email address, and other contact details you provide when registering.</li>
-<li><strong>Usage Data:</strong> information about how you interact with our website and services.</li>
-</ul>
-<h2>How We Use Information</h2>
-<p>We use your information to provide and improve our services, communicate with you, and for security purposes.</p>
-<h2>Sharing and Disclosure</h2>
-<p>We will not share your personal data with third parties except as required by law or to provide the services you request.</p>
-
+        <h1>Contact Us</h1>
+        <form action="https://formspree.io/f/mldbqzvo" method="POST">
+            <label>
+                Your Name:<br>
+                <input type="text" name="name" required>
+            </label><br><br>
+            <label>
+                Your Email:<br>
+                <input type="email" name="_replyto" required>
+            </label><br><br>
+            <label>
+                Message:<br>
+                <textarea name="message" rows="5" required></textarea>
+            </label><br><br>
+            <!-- Prevent spam -->
+            <input type="text" name="_gotcha" style="display:none">
+            <button type="submit">Send Message</button>
+        </form>
     </div>
-    
-<footer>
+    <footer>
     <div id="footer-links" style="margin-bottom: 10px;">
         <a href="privacy.html">Privacy Policy</a> | 
         <a href="terms.html">Terms of Service</a> | 
@@ -50,6 +52,5 @@
     </div>
     &copy; Summer Coding for Girls. All rights reserved.
 </footer>
-
 </body>
 </html>
